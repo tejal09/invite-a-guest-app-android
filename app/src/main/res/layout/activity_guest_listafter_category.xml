@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".guestListafterCategory"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@drawable/backgrnddd">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/categorynametoolbar"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:paddingTop="15dp"
+        android:layout_below="@+id/categorynametoolbar"
+        android:id="@+id/recycler_view_guestListafterCategory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center"
+        />
+
+</RelativeLayout>

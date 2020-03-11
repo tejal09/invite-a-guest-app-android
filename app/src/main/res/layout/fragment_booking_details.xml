@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".BookingDetails"
+    android:background="@drawable/backgrnddd"
+    android:clickable="true"
+    android:focusable="true">
+    <ScrollView
+
+        android:id="@+id/fragment_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+            android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:text="Host Name: "
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:id="@+id/fragment_host_name"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:paddingStart="5dp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+              android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Invited By: "
+
+                    />
+
+                <TextView
+                    android:id="@+id/fragment_invitedBy"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="18dp"
+                    android:paddingStart="5dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email Address: "
+
+                    />
+                <TextView
+                    android:id="@+id/fragment_hostEmailAddress"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:paddingStart="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+              android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Number: "
+
+                    />
+                <TextView
+                    android:id="@+id/fragment_hostContactNumber"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:paddingStart="5dp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+            android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Audience Type: "
+                    />
+                <TextView
+                    android:id="@+id/fragment_audienceType"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:paddingStart="5dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+        android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date: " />
+
+                <TextView
+                    android:id="@+id/fragment_eventDate"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:paddingStart="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+           android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No. of Days: "
+
+                    />
+                <TextView
+                    android:id="@+id/fragment_noOfDays"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:paddingStart="5dp"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+           android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#FFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hours of Engagement: "
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/fragment_hoursOfEngagement"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Host Name"
+                    android:textSize="18dp"
+                    android:paddingStart="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Venue: "
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:background="@drawable/rectanglebg"
+                android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/fragment_venue"
+                    android:lines="5"
+                    android:scrollbars="vertical"
+                    android:isScrollContainer="true"
+                    android:maxLines="10"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Host Name"
+                    android:textSize="20dp"
+                    android:paddingStart="5dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Budget: "/>
+                <TextView
+                    android:id="@+id/fragment_budget"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Host Name"
+                    android:textSize="18dp"
+                    android:paddingStart="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Event Details: "/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/rectanglebg"
+                android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/fragment_eventDetails"
+                    android:lines="5"
+                    android:scrollbars="vertical"
+                    android:isScrollContainer="true"
+                    android:maxLines="10"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Host Name"
+                    android:textSize="18dp"
+                    android:paddingStart="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expectations from the Guest: "/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/rectanglebg"
+                android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/fragment_guestExpectations"
+                    android:lines="5"
+                    android:scrollbars="vertical"
+                    android:isScrollContainer="true"
+                    android:maxLines="10"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Host Name"
+                    android:textSize="18dp"
+                    android:paddingStart="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                >
+
+                <Button
+
+                    android:layout_marginLeft="25dp"
+                    android:id="@+id/accept_Button"
+                    android:layout_width="150sp"
+                    android:layout_height="45sp"
+                    android:layout_gravity="center"
+                    android:background="#6900AA"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="ACCEPT"
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_marginLeft="35dp"
+
+
+                    android:id="@+id/reject_Button"
+                    android:layout_width="150sp"
+                    android:layout_height="45sp"
+                    android:layout_gravity="center"
+                    android:background="#6900AA"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10sp"
+                    android:text="REJECT"
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

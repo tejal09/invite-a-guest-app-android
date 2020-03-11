@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_bookings">
+
+    <fragment
+        android:id="@+id/navigation_bookings"
+        android:name="com.blaxtation.inviteaguest.ui.bookings.BookingsFragment"
+        android:label="@string/bookings"
+        tools:layout="@layout/fragment_bookings" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.blaxtation.inviteaguest.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_contactUs"
+        android:name="com.blaxtation.inviteaguest.ui.contactUs.ContactUsFragment"
+        android:label="@string/contactUs"
+        tools:layout="@layout/fragment_contactus" />
+</navigation>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuestDescription"
+    android:background="@drawable/backgrnddd">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/guest_description_toolbar"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        app:title="Description"
+        />
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+
+        android:padding="10sp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/guest_name_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Name"
+                android:textColor="#4D007E"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:paddingBottom="5dp"
+                />
+
+
+            <ImageView
+
+                android:src="@drawable/round_outline"
+                android:id="@+id/guest_desc_image"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                />
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+             android:gravity="center">
+
+                <TextView
+                    android:id="@+id/guest_desc_sex"
+                    android:paddingTop="8sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sex"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="14dp"
+                    />
+
+                <TextView
+                    android:id="@+id/guest_desc_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8sp"
+                    android:text="age"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="14dp"
+                  android:layout_marginLeft="5dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:id="@+id/guest_desc_location"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="location"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="14dp"
+                />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+               android:textStyle="bold"
+                android:text="Ratings"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp" />
+
+
+            <RatingBar
+                android:id="@+id/guest_desc_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:paddingBottom="10dp"
+                android:numStars="5"
+                android:layout_gravity="center"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                />
+
+
+            <TextView
+                android:background="@drawable/rectanglebg"
+
+                android:id="@+id/guest_desc_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10sp"
+                android:text="DESCRIPTION"
+                android:textStyle="bold"
+                android:textColor="@color/light_font"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:textSize="18dp" />
+
+
+
+            <LinearLayout
+                android:background="@drawable/rectanglebg"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Language: "
+                    android:textColor="@color/light_font"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/guest_desc_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="guest language"
+                    android:textColor="@color/light_font"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/rectanglebg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Event Type: "
+                    android:textColor="@color/light_font"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/guest_desc_eventtype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Event Type"
+                    android:textColor="@color/light_font"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/rectanglebg"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Category: "
+                    android:textColor="@color/light_font"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/guest_desc_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Category: "
+                    android:textColor="@color/light_font"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:textSize="18dp" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+            </LinearLayout>
+
+
+           <Button
+
+               android:id="@+id/enquire"
+               android:paddingTop="10dp"
+               android:layout_width="150sp"
+               android:layout_height="45sp"
+               android:textSize="20dp"
+               android:text="INVITE"
+               android:textStyle="bold"
+               android:layout_gravity="center"
+               android:textAlignment="center"
+               android:paddingBottom="10sp"
+               android:background="#6900AA"
+               android:textColor="#FFF"
+               android:clickable="true"
+               android:focusable="true"
+               />
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

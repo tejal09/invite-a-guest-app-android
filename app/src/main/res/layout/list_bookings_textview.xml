@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    >
+
+    <TextView
+
+        android:padding="5dp"
+        android:id="@+id/bookings_list_hostName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/rectanglebg"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:text="HostName"
+        android:textColor="#FFF"
+        android:textSize="25dp" />
+
+</RelativeLayout>

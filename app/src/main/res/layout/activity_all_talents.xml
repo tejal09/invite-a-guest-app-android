@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AllTalents"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@drawable/backgrnddd">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/allTalentsToolbar"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        app:title="All Talents"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:paddingTop="10dp"
+        android:layout_below="@id/allTalentsToolbar"
+        android:id="@+id/recycler_view_ALl_Talents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center"
+        />
+
+
+
+
+</RelativeLayout>

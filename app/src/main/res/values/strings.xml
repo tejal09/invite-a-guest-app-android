@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Invite A Guest</string>
+    <string name="facebook_application_id" translatable="false">402366533961944</string>
+    <string name="facebook_login_protocol_schema" translatable="false">fb402366533961944</string>
+    <string name="title_activity_home_screen_nav_drawer">Invite A Guest</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Invite A Guest</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Browse</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <string name="about_us">Invite A Guest (IAG) is an online marketplace that enables one to explore and hire (invite) artists, performers, photographers, academicians, emcees, speakers, entrepreneurs and trainers (referred to as ‘guests’ by IAG) for any and all kinds of events, all from the comfort of one’s home or office. The users are offered the luxury to browse, choose and finally ‘invite’ only the best ‘Guests’ for those special and important occasions, be it a wedding, corporate party, training, birthday celebration, endorsement, sports day at school, cultural fest or even a guest lecture in college from within or even outside the city.</string>
+
+    <string name="tejal">Tejal Laxkar \n Co-Founder/CEO</string>
+    <string name="Bikram">Bikram Prasad \n Co-Founder/COO</string>
+
+    <string name="tejal2">teams of leading brands early-stage companies in India and Middle East. She has been inclined to the Entertainment industry and always wanted to do something in the domain during his MBA program at IIM Calcutta. In March 2015, he single-handedly organized one of the largest events in the history of Qatar – Achieved the Guinness World Record for the Largest Human Smiley, followed by a concert featuring a renowned Bollywood singer. He realized the need to organize the events industry and hence, took a plunge into the world of  with his maiden offering - InviteMyGuest. He is also certified Green Belt in </string>
+
+    <string name="Bikram2"> India and Middle East. He has been inclined to the Entertainment industry and always wanted to do something in the domain during his MBA program at IIM Calcutta. In March 2015, he single-handedly organized one of the largest events in the history of Qatar – Achieved the Guinness World Record for the Largest Human Smiley, followed by a concert featuring a renowned Bollywood singer. He realized the need to organize the events industry and hence, took a plunge into the world of  with his maiden offering - InviteMyGuest. He is also certified Green Belt in Six Sigma from Indian Statistical Institute, Delhi, and a B. Tech. graduate </string>
+
+
+    <string name="faq1">Q1. How does Invite A Guest (IAG) work ?</string>
+    <string name="faq2">IAG is where you can invite any of the large number of Guest speakers, artists, photographers etc and eminent personalities with ease for your events. Our mission is to help you get access to super-awesome personalities and artists with restricted or privileged reach, who can be a perfect Guest for your event, Cool, huh? Our Guest list is growing by leaps and bounds, which means we have got it all performers, speakers, singers, photographers, bands, adventure artists and many more, IAG promises to be an offering not done so far in India Below are the next few easy steps you need to follow:\n \n 1 Just type in your event type and category you are interested in and voila! Behold the list of Guests for you to browse, Check out their photos, watch their videos and reviews, and select your favorites\n 2 Click Invite to connect with the Guests you like, Try to be as thorough possible when filling out the invite form, The more details you provide about the event and your expectations from the Guest(s), the easier it becomes for the Guests to share an accurate quote\n Host details (except contact details) will be sent to the Guests along with the invite\n 3 In case they are interested, they will be reverting via IAG with the quote, advance payment and other terms including cancellation policy \n 4 In case Host likes the quote and related details, he will be required to make the advance payment (10% of the total amount  or the advance amount quoted by the Guest, whichever is higher) to IAG as per the Guests Terms and conditions, to confirm the invite, Once the payment is received by IAG, the contact details of the Guest will be mailed to the Host, and vice-versa, to take the discussion further \n 5 The balance payment,inclusive of applicable taxes and additional expenses,need to be paid to the Guest directly as per the T/Cs shared by the Guest along with the quote \n 6 Advance Payment has been centralized to counter situations when Guest may accept advance payment but doesnt turn up for the event In such situations, IAG will attempt to get another fitting Guest for the event or refund the advance amount to the Host.</string>
+    <string name="faq3">Q2. Do you perform background checks for those listed on IAG ?</string>
+    <string name="faq4">To ensure the authenticity of the Guests, we do a mobile number verification and also verify a copy of their identity card. Additionally, the videos, audios, pictures and links uploaded or shared by the Guests are verified on a random sampling basis \n \n That being said, we also strive to address any issues that are brought to our attention We recommend that Hosts (thats you!) be smart and thorough with their own research and verification if they feel uncertain about proceeding with a particular Guest, And of course, should any serious issues be found, we would like you to please report them to us here.</string>
+
+
+    <string name="title_activity_bottom_nav_guest">BottomNavActivityGUEST</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="title_activity_bookings">Bookings</string>
+    <string name="bookings">Bookings</string>
+    <string name="profile">Profile</string>
+    <string name="contactUs">Contact Us</string>
+    <string-array name="categories">
+        <item>Actors</item>
+        <item>Anchors</item>
+        <item>Comedians</item>
+        <item>Dancers</item>
+        <item>DJ</item>
+        <item>Fashion</item>
+        <item>Judges</item>
+        <item>Singers</item>
+        <item>Speakers</item>
+        <item>Writers</item>
+        <item>Sportspersons</item>
+
+
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestStatus"
+    android:background="@drawable/backgrnddd">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/requeststatusttoolbar"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        app:title="My Bookings"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:paddingTop="10dp"
+        android:layout_below="@id/requeststatusttoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/request_list_recycler_view"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

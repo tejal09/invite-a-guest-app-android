@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "811077668217",
+    "firebase_url": "https://invite-a-guest.firebaseio.com",
+    "project_id": "invite-a-guest",
+    "storage_bucket": "invite-a-guest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811077668217:android:e5bad4d51ab84b864fb3a8",
+        "android_client_info": {
+          "package_name": "com.blaxtation.inviteaguest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811077668217-huv4qmjgehk9j60jpoq4r2kjt1244slh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blaxtation.inviteaguest",
+            "certificate_hash": "f0a58099e90d07d88df02902f3a1937bddc5767a"
+          }
+        },
+        {
+          "client_id": "811077668217-gqu5c6jbjlqsi7cijq27j9ns7gq6cl85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwj0zdMmzFfCPCoWYXfPuYZs9cuNDe0us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811077668217-gqu5c6jbjlqsi7cijq27j9ns7gq6cl85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

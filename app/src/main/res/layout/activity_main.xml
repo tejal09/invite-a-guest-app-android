@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgrnddd">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="50dp"
+        android:fontFamily="@font/lobsterfonttext"
+        android:textColor="@color/colorPrimary"
+        />
+
+        </LinearLayout>
+<!--
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <ImageView
+        android:paddingTop="50dp"
+        android:id="@+id/signinlogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+
+        </LinearLayout>
+-->
+
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:padding="15dp"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Login as a Host"
+                    android:textColor="#FFF"
+                    />
+
+            <com.google.android.gms.common.SignInButton
+                app:buttonSize="standard"
+
+                android:layout_marginStart="10dp"
+                android:id="@+id/host_sign_in"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login as a Guest"
+                android:textColor="#FFF"
+                />
+
+            <com.google.android.gms.common.SignInButton
+
+
+                android:layout_marginEnd="10dp"
+                android:id="@+id/guest_sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
